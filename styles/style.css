@@ -1,1 +1,57 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Lightest (Main Background): #f2fbf2
+* Payne's gray (Primary): #326273
+* Moonstone (Secondary): #5C9EAD
+* Anti-flash white (Accent): #EEEEEE
+*/
+
+.bg-info {
+  background-color: #5C9EAD !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #EEEEEE;
+}
+
+.btn-info {
+  color: #FFFFFF;
+  background-color: #5C9EAD;
+  border-color: #326273;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  font-size: 100%;
+  background-color: #326273;
+  border-color: #EEEEEE;
+  border-width: 2.5px;
+}
+
+.btn-success{
+  background: #326273;
+  border-color: #EEEEEE;
+  border-width: 2px;
+}
+
+.btn-success:hover{
+  background: #326273;
+  border-color: #EEEEEE;
+  border-width: 2px;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.navbar-brand {
+  font-family: "Protest Strike",
+    sans-serif;
+  font-size: 2.25rem;
+}
